@@ -1,6 +1,6 @@
 <template>
   <h1>Discounted Products</h1>
-  <div v-for="product in productList" :key="product.id">
+  <div class="discounted" v-for="product in discountedProducts" :key="product.id">
     <ProductInfo :product="product" />
   </div>
 </template>
@@ -21,3 +21,9 @@
   }
 
 </script>
+
+<style scoped>
+  .discounted {
+    background-color: red;
+  }
+</style>
