@@ -1,0 +1,7 @@
+
+
+1. Za manje projetke:
+    -> Provide / Inject flow
+        -> Direktno pristupate podatke odakle vam treba
+
+2. Vuex / Pinia
