@@ -1,19 +1,17 @@
 
 <template>
-  <p>Hello world</p>
-  <ProductDetails :productList="productList" />
+  <DiscountedProducts />
+  <ProductDetails />
 </template>
 
 <script>
 
   import ProductDetails from "@/components/ProductDetails.vue";
+  import DiscountedProducts from "@/components/DiscountedProducts.vue";
 
   export default {
     name: "ProductsPage",
-    components: {ProductDetails},
-    props: {
-      productList: Array
-    }
+    components: {DiscountedProducts, ProductDetails},
   }
 
 </script>
