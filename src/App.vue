@@ -6,7 +6,7 @@
 
 <script>
 
-import ProductsPage from "@/components/ProductsPage.vue";
+import ProductsPage from "@/components/Products/Page.vue";
 
 export default {
   name: 'App',

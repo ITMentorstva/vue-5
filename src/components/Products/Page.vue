@@ -6,8 +6,8 @@
 
 <script>
 
-  import ProductDetails from "@/components/ProductDetails.vue";
-  import DiscountedProducts from "@/components/DiscountedProducts.vue";
+  import ProductDetails from "@/components/Products/Details.vue";
+  import DiscountedProducts from "@/components/Products/Discounted.vue";
 
   export default {
     name: "ProductsPage",

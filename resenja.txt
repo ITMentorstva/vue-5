@@ -5,3 +5,15 @@
         -> Direktno pristupate podatke odakle vam treba
 
 2. Vuex / Pinia
+
+
+
+
+
+========== Domaci ==========
+1. Ako je proizvod na popust (discount !== null): napravite da je ceo div crven
+2. Unutar ProductDetails ispisati samo proizvode koji NISU na popustu
+[D] 3. Napraviti strukturu komponenti tako da stoje unutar foldera Products
+
+
+BONUS: Ako je proizvod na popustu, prikazati kolika je njegova cena sa popustom

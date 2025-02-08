@@ -1,16 +1,17 @@
 <template>
   <h1>Discounted Products</h1>
-  <ul>
-    <li v-for="product in discountedProducts" :key="product.id">
-      {{ product.name }} - ${{ product.price }}
-    </li>
-  </ul>
+  <div v-for="product in productList" :key="product.id">
+    <ProductInfo :product="product" />
+  </div>
 </template>
 
 <script>
 
+  import ProductInfo from "@/components/Products/Info.vue";
+
   export default {
     name: "DiscountedProducts",
+    components: {ProductInfo},
     inject: ['productList'],
     computed: {
       discountedProducts() {
